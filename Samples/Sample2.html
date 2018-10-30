@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.line-break {
+			height: 2px;
+			background-color: #E5E8E7;
+			margin: 10px 0;
+		}
+
+
+		.details td{
+			background-color: #E5E6E5;
+			height: 120px;
+			text-align: right;
+			padding-right: 20px;
+			font-size: 20px;
+			color: #2D2D30;
+		}
+
+		.details:nth-child(2n-1) td {
+		  background: #F1F1F1;
+		}
+
+		.details th.th-description{
+			font-size: 16px;
+			background-color: #D6D7D6;
+			color: #2D2D30;
+			height: 40px;
+			width: 50%;
+			text-align: left;
+			padding-left: 20px;
+			border-bottom: 5px solid #C0BFBF;
+		}
+
+		.details th.th-unitprice,
+		.details th.th-quantity,
+		.details th.th-Total {
+			font-size: 16px;
+			background-color: #D6D7D6;
+			color: #2D2D30;
+			height: 40px;
+			width: 16%;
+			border-bottom: 5px solid #C0BFBF;
+		}
+
+
+		.details th.th-unitprice {
+			background-color: #BBBCBB;
+			color: #2D2D30;
+			border-bottom: 5px solid #A09F9F;
+		}
+
+		.details th.th-quantity {
+			background-color: #C4C2C3;
+			color: #2D2D30;
+			border-bottom: 5px solid #ABA9A9;
+		}
+
+		.details th.th-Total {
+			background-color: #167ABF;
+			color: #2D2D30;
+			border-bottom: 5px solid #1E709E;
+		}
+
+		.details th.th-blank {
+			background-color: #2D2D30;
+			color: #2D2D30;
+			height: 2px;
+		}
+
+		.details th.th-white {
+			background-color: #2D2D30;
+			color: #2D2D30;
+			border-bottom: 2px solid #A09F9F;
+		}
+
+		.details .line th {
+			height: 0px;
+			box-sizing: border-box;
+		}
+
+		.details h1{
+			font-size: 20px;
+			text-align: left;
+			padding: 0 20px;
+			margin-bottom: 5px;
+			font-weight: normal;
+		}
+
+
+		.details h6{
+			font-size: 10px;
+			text-align: left;
+			padding: 0 20px;
+			margin-bottom: 5px;
+			font-weight: lighter;
+			line-height: 1em;
+		}
+
+
+		.details .fotter th {
+			height: 30px;
+			background: #2D2D30;
+			font-size: 20px;
+			font-weight: lighter;
+			text-align: right;
+			padding-right: 20px;
+		}
+
+		.center {
+			text-align: center;
+			padding: 0;
+		}
+
+	</style>
+</head>
+<body>
+<table style="width: 794px; border-collapse: collapse; border-spacing: 0; margin-top: 30px; color: #9d9d9d; font: lighter 12px calibri; line-height: 1.6em; margin: 0 auto; padding: 0;">
+<tbody>
+<tr>
+<th style="height: 20px;" colspan="4">&nbsp;</th>
+</tr>
+<tr style="height: 120px;">
+<th style="width: 40%; background-color: #2d2d30;"><img src="https://shaifhassan.github.io/Images/NewFooter.png" width="192" height="50" border="0" /></th>
+<th style="width: 20%; background-color: #2d2d30;">
+<h1 style="text-align: center; font-size: 22px; font-weight: lighter;">INVOICE</h1>
+</th>
+<th style="width: 40%; background-color: #2d2d30;" colspan="2">
+<div>
+<h2 style="text-align: right; font-size: 10px; font-weight: lighter; margin-right: 20px;">M.Saamiyaalodge, Shaheed Ali Higun, 20339</h2>
+<h2 style="text-align: right; font-size: 10px; font-weight: lighter; margin-right: 20px;">+960 795 7965</h2>
+<h2 style="text-align: right; font-size: 10px; font-weight: lighter; margin-right: 20px;"><a style="text-decoration: none; color: #9d9d9d;" href="mailto:shaif.hassan@xkyeron.com">shaif.hassan@xkyeron.com</a></h2>
+</div>
+</th>
+</tr>
+<tr>
+<th style="height: 20px;" colspan="4">&nbsp;</th>
+</tr>
+<tr style="height: 50px;">
+<td colspan="2">
+<h2 style="text-align: left; font-size: 10px; font-weight: normal; margin-right: 20px; color: #2d2d30;">INVOICE TO</h2>
+<h1 style="font-size: 26px; color: #167abf; font-weight: lighter;">Atmosphere Hotels and Resorts</h1>
+</td>
+<td style="padding-left: 60px;">
+<h4 style="text-align: left; font-size: 10px; font-weight: normal; margin-right: 20px; color: #2d2d30;">INVOICE NO.</h4>
+<h4 style="text-align: left; font-size: 10px; font-weight: normal; margin-right: 20px; color: #2d2d30;">INVOICE DATE</h4>
+</td>
+<td style="text-align: right;">
+<h5 style="font-size: 10px; font-weight: lighter; margin-right: 20px;">INV18004</h5>
+<h5 style="font-size: 10px; font-weight: lighter; margin-right: 20px;">7th September 2018</h5>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<h3 style="font-size: 12px; font-weight: lighter;">H. Aage, 12 Boduthakurufaanu Magu, Male Republic of Maldives</h3>
+<h3 style="font-size: 12px; font-weight: lighter;">Abhilash Babu Cluster Director &ndash; Revenue Management &amp; Reservations</h3>
+<h3 style="font-size: 12px; font-weight: lighter;">abhilash@atmospherehotelsandresorts.com</h3>
+</td>
+<td style="text-align: right;" colspan="2">
+<h2 style="text-align: right; font-size: 10px; font-weight: normal; margin-right: 20px; color: #2d2d30;">TOTAL AMOUNT</h2>
+<h6 style="font-size: 30px; font-weight: lighter; color: #2d2d30; margin: 5px 0; text-align: right;">$400.00</h6>
+</td>
+</tr>
+<tr class="details">
+<th class="th-description">DESCRIPTION</th>
+<th class="th-unitprice">UNIT PRICE</th>
+<th class="th-quantity">QUANTITY</th>
+<th class="th-Total">TOTAL</th>
+</tr>
+<tr class="details">
+<td>
+<h1>S40-001 Consulation-System Consulation</h1>
+<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h6>
+</td>
+<td>$200.00</td>
+<td class="center">2</td>
+<td>$400.00</td>
+</tr>
+<tr class="details">
+<td>
+<h1>S40-001 Consulation-System Consulation</h1>
+<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h6>
+</td>
+<td>$200.00</td>
+<td class="center">7</td>
+<td>$1400.00</td>
+</tr>
+<tr class="details">
+<td colspan="4" height="120"></td>
+</tr>
+<tr class="line">
+<th class="th-description">&nbsp;</th>
+<th class="th-unitprice">&nbsp;</th>
+<th class="th-quantity">&nbsp;</th>
+<th class="th-Total">&nbsp;</th>
+</tr>
+<tr class="fotter">
+<th colspan="4">&nbsp;</th>
+</tr>
+<tr class="fotter">
+<th colspan="3">Sub Total</th>
+<th>$800.00</th>
+</tr>
+<tr class="fotter">
+<th colspan="3">Discount</th>
+<th>$0.00</th>
+</tr>
+<tr class="line">
+<th class="th-blank" colspan="2">&nbsp;</th>
+<th class="th-white" colspan="2">&nbsp;</th>
+</tr>
+<tr class="fotter">
+<th colspan="3">Total</th>
+<th>$800.00</th>
+</tr>
+<tr class="fotter">
+<th colspan="4">&nbsp;</th>
+</tr>
+<tr class="line">
+<th class="th-description">&nbsp;</th>
+<th class="th-unitprice">&nbsp;</th>
+<th class="th-quantity">&nbsp;</th>
+<th class="th-Total">&nbsp;</th>
+</tr>
+<tr>
+<td>
+<h1>BANK DETAILS</h1>
+<h2>BANK : BANK OF MALDIVES</h2>
+<h2>ACCOUNT NAME : MOHAMED SHAIF HASSAN</h2>
+<h2>ACCOUNT NO : 7730000021914 (USD)</h2>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<p>We trust that the above is satisfactory and there for look forward to your kind approval</p>
+<h3><a href="http://xkyeron.com">www.xkyeron.com</a></h3>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
